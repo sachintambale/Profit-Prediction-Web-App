@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>page1</title>
+</head>
+<body>
+    <h1>Profit Prediction</h1>
+
+    <form action="/predict">
+        <div>
+            <label for="">Administration Budget</label>
+            <input name="administration" type="number" placeholder="budget">
+        </div>
+
+        <div>
+            <label for="">Marketing Budget</label>
+            <input name="marketing" type="number" placeholder="budget">
+        </div>
+
+        <div>
+            <label for="">RnD Budget</label>
+            <input name="rnd" type="number" placeholder="budget">
+        </div>
+
+        <div>
+            <label for="">State</label>
+            <select name="state">
+                <option value="2">New York</option>
+                <option value="1">Florida</option>
+                <option value="0">California</option>
+            </select>
+        </div>
+
+        <div>
+            <button type="submit">Predict Profit</button>
+        </div>
+    </form>
+</body>
+</html>
